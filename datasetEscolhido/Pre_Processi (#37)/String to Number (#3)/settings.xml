@@ -13,10 +13,9 @@
         <config key="include">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="3"/>
+                <entry key="array-size" type="xint" value="2"/>
                 <entry key="0" type="xstring" value="Levy"/>
                 <entry key="1" type="xstring" value="Mileage"/>
-                <entry key="2" type="xstring" value="Doors"/>
             </config>
             <config key="excluded_names">
                 <entry key="array-size" type="xint" value="10"/>
@@ -69,11 +68,6 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
-    <config key="nodecontainer_message">
-        <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="Problems in 5947 rows, first error: &quot;-&quot; in cell [&quot;Row2&quot;, column &quot;Levy&quot;, row 3] can not be transformed into a number"/>
-        <entry key="issue" type="xstring" value="RowID  | Price  |  Levy  | Manufacturer%%00010---------------------------------------%%00010Row0   | 13328  | 1399   | LEXUS       %%00010Row1   | 16621  | 1018   | CHEVROLET   %%00010Row2   | 8467   | -      | HONDA       %%00010                 ^^^^^^^%%00010For input string: &quot;-&quot;%%00010"/>
-    </config>
     <entry key="factory" type="xstring" value="org.knime.base.node.preproc.colconvert.stringtonumber2.StringToNumber2NodeFactory"/>
     <entry key="node-name" type="xstring" value="String to Number"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -93,12 +87,12 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 19237, Cols: 17"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 15775, Cols: 15"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="9a418b93-0c33-4111-95be-ab43cb0e5921"/>
+        <entry key="file_store_id" type="xstring" value="02d2e323-f6d8-497b-b9aa-1b39cf8fb7c3"/>
     </config>
 </config>

@@ -10,7 +10,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="false"/>
         </config>
-        <entry key="numCol" type="xstring" value="CHOL"/>
+        <entry key="numCol" type="xstring" value="Airbags"/>
         <config key="backgroundColor_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_color"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -38,18 +38,16 @@
         <config key="columns">
             <entry key="filter-type" type="xstring" value="STANDARD"/>
             <config key="included_names">
-                <entry key="array-size" type="xint" value="7"/>
-                <entry key="0" type="xstring" value="id_code"/>
-                <entry key="1" type="xstring" value="Age"/>
-                <entry key="2" type="xstring" value="birth_year"/>
-                <entry key="3" type="xstring" value="birth_month"/>
-                <entry key="4" type="xstring" value="Alkphos"/>
-                <entry key="5" type="xstring" value="Sgpt"/>
-                <entry key="6" type="xstring" value="Sgot"/>
+                <entry key="array-size" type="xint" value="4"/>
+                <entry key="0" type="xstring" value="Price"/>
+                <entry key="1" type="xstring" value="Prod. year"/>
+                <entry key="2" type="xstring" value="Cylinders"/>
+                <entry key="3" type="xstring" value="Airbags"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="1"/>
-                <entry key="0" type="xstring" value="CHOL"/>
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="ID"/>
+                <entry key="1" type="xstring" value="CHOL"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -192,6 +190,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="ef51e050-2bd2-42b7-aa90-147dfa764ef7"/>
+        <entry key="file_store_id" type="xstring" value="412a0a25-eeef-404e-8d51-afe1eb2e628e"/>
     </config>
 </config>

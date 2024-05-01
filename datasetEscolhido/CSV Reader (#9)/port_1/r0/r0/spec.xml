@@ -546,13 +546,13 @@
                 <config key="11">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Golden"/>
+                        <entry key="StringCell" type="xstring" value="Beige"/>
                     </config>
                 </config>
                 <config key="12">
                     <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
                     <config key="org.knime.core.data.def.StringCell">
-                        <entry key="StringCell" type="xstring" value="Beige"/>
+                        <entry key="StringCell" type="xstring" value="Golden"/>
                     </config>
                 </config>
                 <config key="13">

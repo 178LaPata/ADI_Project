@@ -42,7 +42,7 @@
         <config key="column_properties">
             <entry key="class org.knime.base.data.xml.SvgValueRenderer.preferredHeight" type="xstring" value="100"/>
             <entry key="class org.knime.base.data.xml.SvgValueRenderer.keepAspectRatio" type="xstring" value="true"/>
-            <entry key="class org.knime.base.data.xml.SvgValueRenderer.preferredWidth" type="xstring" value="7"/>
+            <entry key="class org.knime.base.data.xml.SvgValueRenderer.preferredWidth" type="xstring" value="200"/>
         </config>
         <config key="meta_data"/>
     </config>
