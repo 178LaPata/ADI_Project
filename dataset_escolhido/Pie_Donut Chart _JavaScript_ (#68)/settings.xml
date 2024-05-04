@@ -30,7 +30,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="includeMissValCat" type="xboolean" value="true"/>
+        <entry key="includeMissValCat" type="xboolean" value="false"/>
         <config key="freq_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -198,6 +198,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="The following data columns have missing values, which were ignored during the aggregation:%%00010    Price - 4 missing value(s)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Pie/Donut Chart (JavaScript)"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -220,7 +224,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="SVG 555 x 342"/>
+            <entry key="port_object_summary" type="xstring" value="SVG 555 x 337"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -228,6 +232,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="904ff342-77aa-4eea-8074-c01c09517b1b"/>
+        <entry key="file_store_id" type="xstring" value="636565d2-c15f-4a5a-bca8-56692ea73269"/>
     </config>
 </config>

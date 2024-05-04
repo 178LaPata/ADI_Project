@@ -37,13 +37,11 @@
                 <entry key="0" type="xstring" value="Price"/>
             </config>
             <config key="excluded_names">
-                <entry key="array-size" type="xint" value="6"/>
+                <entry key="array-size" type="xint" value="4"/>
                 <entry key="0" type="xstring" value="ID"/>
-                <entry key="1" type="xstring" value="Levy"/>
-                <entry key="2" type="xstring" value="Prod. year"/>
-                <entry key="3" type="xstring" value="Mileage"/>
-                <entry key="4" type="xstring" value="Cylinders"/>
-                <entry key="5" type="xstring" value="Airbags"/>
+                <entry key="1" type="xstring" value="Prod. year"/>
+                <entry key="2" type="xstring" value="Cylinders"/>
+                <entry key="3" type="xstring" value="Airbags"/>
             </config>
             <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
             <config key="name_pattern">
@@ -73,7 +71,7 @@
             <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
         </config>
-        <entry key="includeMissValCat" type="xboolean" value="true"/>
+        <entry key="includeMissValCat" type="xboolean" value="false"/>
         <config key="title_Internals">
             <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
             <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -241,6 +239,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="The following data columns have missing values, which were ignored during the aggregation:%%00010    Price - 4 missing value(s)"/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.dynamic.js.v30.DynamicJSNodeFactory"/>
     <entry key="node-name" type="xstring" value="Bar Chart (JavaScript)"/>
     <entry key="node-bundle-name" type="xstring" value="D3 Samples for KNIME Dynamic JavaScript Node Generation"/>
@@ -271,6 +273,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f23210f9-2220-411e-b9eb-3ab26d41411a"/>
+        <entry key="file_store_id" type="xstring" value="a455645d-3882-4228-87cf-4261ba89145b"/>
     </config>
 </config>

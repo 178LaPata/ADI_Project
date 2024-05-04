@@ -56,7 +56,7 @@
             <entry key="max" type="xdouble" value="100.0"/>
         </config>
         <entry key="axisExtentMethod" type="xstring" value="AUTO"/>
-        <entry key="direction" type="xstring" value="HORIZONTAL"/>
+        <entry key="direction" type="xstring" value="VERTICAL"/>
         <entry key="chartType" type="xstring" value="GROUPED"/>
         <entry key="barGroups" type="xstring" value="DIMENSIONS"/>
         <entry key="showLegend" type="xboolean" value="true"/>
@@ -110,7 +110,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PNG Image 1000 x 800 with 46 KB"/>
+            <entry key="port_object_summary" type="xstring" value="PNG Image 1000 x 800 with 43 KB"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -133,6 +133,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="58ee7d41-5e19-4275-b26b-592c931b050b"/>
+        <entry key="file_store_id" type="xstring" value="b3673c58-fc46-430d-90cd-85edfcfd5746"/>
     </config>
 </config>

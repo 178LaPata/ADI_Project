@@ -33,13 +33,11 @@
                     <entry key="0" type="xstring" value="Price"/>
                 </config>
                 <config key="manuallyDeselected">
-                    <entry key="array-size" type="xint" value="6"/>
+                    <entry key="array-size" type="xint" value="4"/>
                     <entry key="0" type="xstring" value="ID"/>
-                    <entry key="1" type="xstring" value="Levy"/>
-                    <entry key="2" type="xstring" value="Prod. year"/>
-                    <entry key="3" type="xstring" value="Mileage"/>
-                    <entry key="4" type="xstring" value="Cylinders"/>
-                    <entry key="5" type="xstring" value="Airbags"/>
+                    <entry key="1" type="xstring" value="Prod. year"/>
+                    <entry key="2" type="xstring" value="Cylinders"/>
+                    <entry key="3" type="xstring" value="Airbags"/>
                 </config>
                 <entry key="includeUnknownColumns" type="xboolean" value="false"/>
             </config>
@@ -89,6 +87,10 @@
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="There are categories with no corresponding values in one of the selected frequency columns. These frequencies are not displayed for such categories."/>
+    </config>
     <entry key="factory" type="xstring" value="org.knime.base.views.node.barchart.BarChartNodeFactory"/>
     <entry key="node-name" type="xstring" value="Bar Chart"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Views"/>
@@ -116,7 +118,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObjectSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.image.ImagePortObject"/>
-            <entry key="port_object_summary" type="xstring" value="PNG Image 1000 x 800 with 47 KB"/>
+            <entry key="port_object_summary" type="xstring" value="PNG Image 1000 x 800 with 42 KB"/>
             <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
             <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -185,10 +187,20 @@
                 <entry key="type" type="xstring" value="table"/>
                 <entry key="table_dir_location" type="xstring" value="object_11"/>
             </config>
+            <config key="object_12">
+                <entry key="index" type="xint" value="12"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_12"/>
+            </config>
+            <config key="object_13">
+                <entry key="index" type="xint" value="13"/>
+                <entry key="type" type="xstring" value="table"/>
+                <entry key="table_dir_location" type="xstring" value="object_13"/>
+            </config>
         </config>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a08cb06f-6713-4b92-b890-bb93447a0cba"/>
+        <entry key="file_store_id" type="xstring" value="13026771-a136-4792-a015-4cbe25140055"/>
     </config>
 </config>
