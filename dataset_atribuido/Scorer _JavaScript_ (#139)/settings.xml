@@ -73,7 +73,7 @@
     <entry key="state" type="xstring" value="EXECUTED"/>
     <config key="nodecontainer_message">
         <entry key="type" type="xstring" value="WARNING"/>
-        <entry key="message" type="xstring" value="There were 3 missing values in the reference or in the prediction class columns."/>
+        <entry key="message" type="xstring" value="There were 12 missing values in the reference or in the prediction class columns."/>
     </config>
     <entry key="factory" type="xstring" value="org.knime.js.base.node.scorer.ScorerNodeFactory"/>
     <entry key="node-name" type="xstring" value="Scorer (JavaScript)"/>

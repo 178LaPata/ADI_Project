@@ -41,9 +41,9 @@
         <entry key="randomSampling" type="xboolean" value="true"/>
         <entry key="leaveOneOut" type="xboolean" value="false"/>
         <entry key="stratifiedSampling" type="xboolean" value="false"/>
-        <entry key="classColumn" type="xstring" value="Airbags"/>
-        <entry key="useRandomSeed" type="xboolean" value="false"/>
-        <entry key="randomSeed" type="xlong" value="0"/>
+        <entry key="classColumn" type="xstring" value="Selector"/>
+        <entry key="useRandomSeed" type="xboolean" value="true"/>
+        <entry key="randomSeed" type="xlong" value="235135124"/>
     </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
@@ -79,6 +79,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" value="filestore"/>
-        <entry key="file_store_id" type="xstring" value="9233618b-d4ac-4a1c-b6d5-5700c6102d68"/>
+        <entry key="file_store_id" type="xstring" value="c43c8b3b-6cd1-4af2-8faa-ca7d03c8c1be"/>
     </config>
 </config>
